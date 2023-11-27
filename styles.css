@@ -141,11 +141,28 @@ button,
 
 .third-section {
   background-color: #E5E7EB;
+  padding: 5em 0;
+  display: flex;
+  justify-content: center;
 }
 
-.third-section>blockquote {
-  font-size: 36px;
-  font-weight: light;
-  font-style: italic;
+.third-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: #1F2937;
+  width: 60%;
+}
+
+.third-section blockquote {
+  font-weight: 100;
+  font-size: 36px;
+  font-style: italic;
+}
+
+.third-section p {
+  font-weight: 700;
+  align-self: end;
+  font-size: 20px;
+  padding-right: 3em;
 }

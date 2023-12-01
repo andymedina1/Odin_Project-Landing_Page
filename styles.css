@@ -166,3 +166,24 @@ button,
   font-size: 20px;
   padding-right: 3em;
 }
+
+.fourth-section {
+  padding: 5em 0;
+  display: flex;
+  justify-content: center;
+}
+
+.blue-card {
+  border-radius: 10px;
+  padding: 3em 6em;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blue-card>button {
+  border: 2px solid #ffffff;
+  padding: 0 2em;
+  font-size: large;
+  font-weight: bold;
+}

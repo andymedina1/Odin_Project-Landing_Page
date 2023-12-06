@@ -117,7 +117,6 @@ button,
 
 
 .middle-container {
-  padding: 0 20%;
   display: flex;
   gap: 5em;
 }
@@ -186,4 +185,13 @@ button,
   padding: 0 2em;
   font-size: large;
   font-weight: bold;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #F9FAF8;
+  padding: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
